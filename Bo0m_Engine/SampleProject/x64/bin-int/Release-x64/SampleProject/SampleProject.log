@@ -1,8 +1,0 @@
-﻿  App.cpp
-D:\Dev\Bo0m Engine\SampleProject\App.cpp(19,1): warning C4326: Der Rückgabetyp von "main" sollte "int" und nicht "void" sein
-     Bibliothek "D:\Dev\Bo0m Engine\Bo0m_Engine\bin\Release-x64\SampleProject\SampleProject.lib" und Objekt "D:\Dev\Bo0m Engine\Bo0m_Engine\bin\Release-x64\SampleProject\SampleProject.exp" werden erstellt.
-  Code wird generiert.
-  Compiler switch has changed, fall back to full compilation.
-  All 7 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
-  Codegenerierung ist abgeschlossen.
-  SampleProject.vcxproj -> D:\Dev\Bo0m Engine\Bo0m_Engine\bin\Release-x64\SampleProject\SampleProject.exe

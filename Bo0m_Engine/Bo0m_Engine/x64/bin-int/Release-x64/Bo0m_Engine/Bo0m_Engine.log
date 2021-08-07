@@ -1,3 +1,0 @@
-﻿     Bibliothek "D:\Dev\Bo0m Engine\Bo0m_Engine\bin\Release-x64\Bo0m_Engine\Bo0m_Engine.lib" und Objekt "D:\Dev\Bo0m Engine\Bo0m_Engine\bin\Release-x64\Bo0m_Engine\Bo0m_Engine.exp" werden erstellt.
-Application.obj : error LNK2001: Nicht aufgelöstes externes Symbol ""__declspec(dllimport) const BE::Application::`vftable'" (__imp_??_7Application@BE@@6B@)".
-D:\Dev\Bo0m Engine\Bo0m_Engine\bin\Release-x64\Bo0m_Engine\Bo0m_Engine.dll : fatal error LNK1120: 1 nicht aufgelöste Externe
