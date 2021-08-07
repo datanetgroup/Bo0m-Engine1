@@ -1,1 +1,18 @@
-﻿  Bo0m_Engine.vcxproj -> D:\Dev\Bo0m Engine\Bo0m_Engine\bin\Debug-x64\Bo0m_Engine\Bo0m_Engine.dll
+﻿  Application.cpp
+  Core.cpp
+  Log.cpp
+D:\Dev\Bo0m-Engine\Bo0m Engine\Bo0m_Engine\Source\Core\Log.h(13,32): error C2955: "std::shared_ptr" : Für die Verwendung von Klasse Vorlage ist eine Vorlage-Argumentliste erforderlich
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\memory(1041): message : Siehe Deklaration von "std::shared_ptr"
+D:\Dev\Bo0m-Engine\Bo0m Engine\Bo0m_Engine\Source\Core\Log.h(13,32): error C2059: Syntaxfehler: "<<"
+D:\Dev\Bo0m-Engine\Bo0m Engine\Bo0m_Engine\Source\Core\Log.h(13,34): error C2653: "spdlog": Keine Klasse oder Namespace
+D:\Dev\Bo0m-Engine\Bo0m Engine\Bo0m_Engine\Source\Core\Log.h(13,67): error C2334: Unerwartete(s) Token vor "{"; sichtbarer Funktionstext wird übersprungen
+D:\Dev\Bo0m-Engine\Bo0m Engine\Bo0m_Engine\Source\Core\Log.h(14,32): error C2059: Syntaxfehler: "<<"
+D:\Dev\Bo0m-Engine\Bo0m Engine\Bo0m_Engine\Source\Core\Log.h(14,34): error C2653: "spdlog": Keine Klasse oder Namespace
+D:\Dev\Bo0m-Engine\Bo0m Engine\Bo0m_Engine\Source\Core\Log.h(14,69): error C2334: Unerwartete(s) Token vor "{"; sichtbarer Funktionstext wird übersprungen
+D:\Dev\Bo0m-Engine\Bo0m Engine\Bo0m_Engine\Source\Core\Log.h(17,27): error C2059: Syntaxfehler: "<<"
+D:\Dev\Bo0m-Engine\Bo0m Engine\Bo0m_Engine\Source\Core\Log.h(17,30): error C2653: "spdlog": Keine Klasse oder Namespace
+D:\Dev\Bo0m-Engine\Bo0m Engine\Bo0m_Engine\Source\Core\Log.h(17,59): error C2238: Unerwartete(s) Token vor ";"
+D:\Dev\Bo0m-Engine\Bo0m Engine\Bo0m_Engine\Source\Core\Log.h(18,27): error C2059: Syntaxfehler: "<<"
+D:\Dev\Bo0m-Engine\Bo0m Engine\Bo0m_Engine\Source\Core\Log.h(18,30): error C2653: "spdlog": Keine Klasse oder Namespace
+D:\Dev\Bo0m-Engine\Bo0m Engine\Bo0m_Engine\Source\Core\Log.h(18,61): error C2238: Unerwartete(s) Token vor ";"
+  Code wird generiert...
