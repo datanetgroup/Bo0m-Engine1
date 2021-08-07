@@ -1,0 +1,6 @@
+[submodule "Bo0m"]
+	path = Bo0m
+	url = https://github.com/gabime/spdlog
+[submodule "Bo0m_Engine/Bo0m_Engine/Source/ThirdParts/spdlog"]
+	path = Bo0m_Engine/Bo0m_Engine/Source/ThirdParts/spdlog
+	url = https://github.com/gabime/spdlog
