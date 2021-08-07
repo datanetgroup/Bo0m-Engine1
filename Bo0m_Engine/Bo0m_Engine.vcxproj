@@ -27,6 +27,7 @@
     <ClInclude Include="Source\Core\Events\Event.h" />
     <ClInclude Include="Source\Core\Events\KeyEvent.h" />
     <ClInclude Include="Source\Core\Events\MouseEvent.h" />
+    <ClInclude Include="Source\Core\Log.h" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Config\Windows\BaseWindowsEngine.ini" />

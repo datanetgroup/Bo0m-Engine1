@@ -2,6 +2,7 @@
 #include "Core.h"
 #include "../ThirdParts/spdlog/include/spdlog/spdlog.h"
 #include <memory>
+#include "../ThirdParts/spdlog/include/spdlog/fmt/ostr.h"
 
 
 namespace BE {
@@ -10,12 +11,12 @@ namespace BE {
 	public:
 		static void init();
 
-		static Ref<spdlog::logger>& GetCoreLogger() { return s_CoreLogger; }
-		static Ref<spdlog::logger>& GetClientLogger() { return s_ClientLogger; }
+//		static Ref<spdlog::logger>& GetCoreLogger() { return s_CoreLogger; }
+//		static Ref<spdlog::logger>& GetClientLogger() { return s_ClientLogger; }
 
 	private:
-		static Ref<spdlog::logger> s_CoreLogger;
-		static Ref<spdlog::logger> s_ClientLogger;
+//		static Ref<spdlog::logger> s_CoreLogger;
+//		static Ref<spdlog::logger> s_ClientLogger;
 	};
 
 
