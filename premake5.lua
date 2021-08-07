@@ -29,7 +29,8 @@ outputdir = "%{cfg.buildcfg}-%{cfg.system}-%{cfg.architecture}"
 
 	includedirs
 	{
-		"%{prj.name}Bo0m_Engine\Source\ThirdParts\spdlog\include;"
+		"%{prj.name}/Bo0m_Engine/Source",
+		"%{prj.name}/Bo0m_Engine/Source/ThirdParts/spdlog/include"
 
 	}
 
@@ -51,16 +52,16 @@ outputdir = "%{cfg.buildcfg}-%{cfg.system}-%{cfg.architecture}"
 		}
 
 		filter "configurations:Debug"
-			definde "BE_DEBUG"
-			sybols "On"
+			defines "BE_DEBUG"
+			symbols "On"
 
 		filter "configurations:Release"
-			definde "BE_RELEASE"
-			optimized "On"
+			defines "BE_RELEASE"
+			optimize "On"
 
 		filter "configurations:Shipping"
-			definde "BE_SHIPPING"
-			optimized "On"
+			defines "BE_SHIPPING"
+			optimize "On"
 
 
 project "SampleProject"
@@ -74,15 +75,15 @@ project "SampleProject"
 
 	files
 	{
-		"%{prj.name}/Engine/Bo0m_Engine/Source/**.h",
-		"%{prj.name}/Engine/Bo0m/Engine/Source/**.cpp"
+		"%{prj.name}/Bo0m_Engine/Source/**.h",
+		"%{prj.name}/Bo0m_Engine/Source/**.cpp"
 
 	}
 
 	includedirs
 	{
-		"%{prj.name}Bo0m_Engine\Source\ThirdParts\spdlog\include;",
-		"Bo0m_Engine\Source;"
+		"Bo0m_Engine/Source/ThirdParts/spdlog/include",
+		"Bo0m_Engine/Source"
 
 	}
 
@@ -103,13 +104,13 @@ project "SampleProject"
 
 
 		filter "configurations:Debug"
-			definde "BE_DEBUG"
-			sybols "On"
+			defines "BE_DEBUG"
+			symbols "On"
 
 		filter "configurations:Release"
-			definde "BE_RELEASE"
-			optimized "On"
+			defines "BE_RELEASE"
+			optimize "On"
 
 		filter "configurations:Shipping"
-			definde "BE_SHIPPING"
-			optimized "On"
+			defines "BE_SHIPPING"
+			optimize "On"
