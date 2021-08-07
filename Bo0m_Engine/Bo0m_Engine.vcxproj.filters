@@ -18,6 +18,7 @@
     <None Include="Config\Windows\BaseWindowsEngine.ini" />
     <None Include="Config\Windows\WindowsEngine.ini" />
     <None Include="Config\Windows\WindowsGame.ini" />
+    <None Include="..\premake5.lua" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Source\Core\Core.h">

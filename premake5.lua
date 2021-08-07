@@ -74,14 +74,14 @@ project "SampleProject"
 
 	files
 	{
-		"%{prj.name}/Engine/Source/**.h",
-		"%{prj.name}/Engine/Source/**.cpp"
+		"%{prj.name}/Engine/Bo0m_Engine/Source/**.h",
+		"%{prj.name}/Engine/Bo0m/Engine/Source/**.cpp"
 
 	}
 
 	includedirs
 	{
-		"%{prj.name}\Bo0m_Engine\Source\ThirdParts\spdlog\include;",
+		"%{prj.name}Bo0m_Engine\Source\ThirdParts\spdlog\include;",
 		"Bo0m_Engine\Source;"
 
 	}
