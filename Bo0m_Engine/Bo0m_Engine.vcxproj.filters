@@ -508,9 +508,6 @@
     <ClCompile Include="Source\Core\Core.cpp">
       <Filter>Core</Filter>
     </ClCompile>
-    <ClCompile Include="Source\Core\Log.cpp">
-      <Filter>Core</Filter>
-    </ClCompile>
     <ClCompile Include="Source\ThirdParts\spdlog\bench\async_bench.cpp">
       <Filter>ThirdParts\spdlog\bench</Filter>
     </ClCompile>

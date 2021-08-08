@@ -1,4 +1,4 @@
-#include "../Bo0m_Engine/Source/Bo0mEngine.h"
+#include "../Source/Bo0mEngine.h"
 
 class SampleProject : public::BE::Application
 {

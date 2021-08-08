@@ -1,4 +1,4 @@
-#include "../bepch.h"
+#include "bepch.h"
 #include "Log.h"
 
 //Dieser Include Soll nach Einbindung neu Gesetzt werden so das die Datei gefunden werden kann
