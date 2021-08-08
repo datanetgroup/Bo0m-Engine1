@@ -80,7 +80,7 @@
       <PrecompiledHeaderFile>bepch.h</PrecompiledHeaderFile>
       <WarningLevel>Level3</WarningLevel>
       <PreprocessorDefinitions>BE_PLATFORM_WINDOWS;BE_BUILD_DLL;BE_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>Bo0m_Engine\Source;..\Bo0m-Engine\Bo0m_Engine\Source\ThirdParts;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(SolutionDir)Bo0m_Engine\Source;..\Bo0m-Engine\Bo0m_Engine\Source\ThirdParty;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
       <Optimization>Disabled</Optimization>
       <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
@@ -101,7 +101,7 @@
       <PrecompiledHeaderFile>bepch.h</PrecompiledHeaderFile>
       <WarningLevel>Level3</WarningLevel>
       <PreprocessorDefinitions>BE_PLATFORM_WINDOWS;BE_BUILD_DLL;BE_RELEASE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>Bo0m_Engine\Source;..\Bo0m-Engine\Bo0m_Engine\Source\ThirdParts;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(SolutionDir)Bo0m_Engine\Source;..\Bo0m-Engine\Bo0m_Engine\Source\ThirdParty;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <Optimization>Full</Optimization>
       <FunctionLevelLinking>true</FunctionLevelLinking>
       <IntrinsicFunctions>true</IntrinsicFunctions>
@@ -126,7 +126,7 @@
       <PrecompiledHeaderFile>bepch.h</PrecompiledHeaderFile>
       <WarningLevel>Level3</WarningLevel>
       <PreprocessorDefinitions>BE_PLATFORM_WINDOWS;BE_BUILD_DLL;BE_SHIPPING;%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>Bo0m_Engine\Source;..\Bo0m-Engine\Bo0m_Engine\Source\ThirdParts;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(SolutionDir)Bo0m_Engine\Source;..\Bo0m-Engine\Bo0m_Engine\Source\ThirdParty;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <Optimization>Full</Optimization>
       <FunctionLevelLinking>true</FunctionLevelLinking>
       <IntrinsicFunctions>true</IntrinsicFunctions>
@@ -195,7 +195,6 @@
   <ItemGroup>
     <ClCompile Include="Source\Core\Application.cpp" />
     <ClCompile Include="Source\Core\Core.cpp" />
-    <ClCompile Include="Source\Core\Log.cpp" />
     <ClCompile Include="Source\bepch.cpp">
       <PrecompiledHeader>Create</PrecompiledHeader>
     </ClCompile>

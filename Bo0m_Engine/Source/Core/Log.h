@@ -1,7 +1,7 @@
 #pragma once
 #include "Core.h"
-#include "../ThirdParts/spdlog/include/spdlog/spdlog.h"
-#include "../ThirdParts/spdlog/include/spdlog/fmt/ostr.h"
+#include "../ThirdParty/SPDLOG/include/spdlog/spdlog.h"
+#include "../ThirdParty/SPDLOG/include/spdlog/fmt/ostr.h"
 
 
 namespace BE {

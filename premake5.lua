@@ -34,7 +34,7 @@ outputdir = "%{cfg.buildcfg}-%{cfg.system}-%{cfg.architecture}"
 	includedirs
 	{
 		"%{prj.name}/Bo0m_Engine/Source",
-		"Bo0m-Engine/Bo0m_Engine/Source/ThirdParts"
+		"Bo0m-Engine/Bo0m_Engine/Source/ThirdParty"
 
 	}
 

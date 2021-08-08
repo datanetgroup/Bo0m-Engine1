@@ -175,9 +175,6 @@
     <ClCompile Include="Source\Core\Core.cpp">
       <Filter>Core</Filter>
     </ClCompile>
-    <ClCompile Include="Source\Core\Log.cpp">
-      <Filter>Core</Filter>
-    </ClCompile>
     <ClCompile Include="Source\bepch.cpp" />
   </ItemGroup>
 </Project>
