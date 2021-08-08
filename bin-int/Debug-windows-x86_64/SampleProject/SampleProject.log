@@ -1,1 +1,2 @@
-﻿LINK : fatal error LNK1104: Datei "D:\Dev\Bo0m-Engine\bin\Debug-windows-x86_64\Bo0m_Engine\Bo0m_Engine.lib" kann nicht geöffnet werden.
+﻿  App.cpp
+LINK : fatal error LNK1104: Datei "D:\Dev\Bo0m-Engine\bin\Debug-windows-x86_64\Bo0m_Engine\Bo0m_Engine.lib" kann nicht geöffnet werden.
