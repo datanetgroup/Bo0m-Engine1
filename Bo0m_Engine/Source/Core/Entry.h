@@ -9,9 +9,9 @@ extern BE::Application* BE::CreateApplication();
 int main(int argc, char** argv) {
 
 // Das Bitte nach Import von spdlog aktivieren
-//	BE::Log::Init();
-//	BE_CORE_WARN("Initialized Log!");
-//	BE_INFO("Initialized Log!");
+	BE::Log::init();
+	BE::Log::GetCoreLogger()->warn("Initialized Log");
+	BE::Log::GetClientLogger()->info("Hello!");
 
 
 	auto app = BE::CreateApplication();

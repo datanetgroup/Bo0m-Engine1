@@ -4,6 +4,7 @@
 
 #include "Core/Application.h"
 #include "Core/Core.h"
+#include "Core/Log.h"
 
 //Diesen Include bitte nach Import von spdlog Aktivieren
 //#include "Core/Log.h"
