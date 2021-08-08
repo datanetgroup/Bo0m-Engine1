@@ -6,9 +6,13 @@
 //
 // bench.cpp : spdlog benchmarks
 //
-#include "spdlog/spdlog.h"
+#include 
+#include "../../spdlog/include/spdlog/spdlog.h"
 #include "spdlog/async.h"
+#include "../../spdlog/include/spdlog/"
+#include "../../spdlog/include/spdlog/async.h"
 #include "spdlog/sinks/basic_file_sink.h"
+#include "../../spdlog/include/spdlog/"
 
 #ifdef SPDLOG_FMT_EXTERNAL
 #    include <fmt/format.h>

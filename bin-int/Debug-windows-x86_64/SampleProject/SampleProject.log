@@ -1,1 +1,2 @@
-﻿  SampleProject.vcxproj -> D:\Dev\Bo0m-Engine\bin\Debug-windows-x86_64\SampleProject\SampleProject.exe
+﻿  App.cpp
+D:\Dev\Bo0m-Engine\SampleProject\Source\App.cpp(1,10): fatal error C1083: Datei (Include) kann nicht geöffnet werden: "../Bo0m_Engine/Source/Bo0mEngine.h": No such file or directory

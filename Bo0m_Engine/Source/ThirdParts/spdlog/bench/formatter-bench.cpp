@@ -2,7 +2,6 @@
 // Copyright(c) 2018 Gabi Melman.
 // Distributed under the MIT License (http://opensource.org/licenses/MIT)
 //
-
 #include "benchmark/benchmark.h"
 
 #include "spdlog/spdlog.h"

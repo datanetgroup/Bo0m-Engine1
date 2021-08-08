@@ -26,15 +26,15 @@ outputdir = "%{cfg.buildcfg}-%{cfg.system}-%{cfg.architecture}"
 
 	files
 	{
-		"%{prj.name}/Engine/Source/**.h",
-		"%{prj.name}/Engine/Source/**.cpp"
+		"%{prj.name}/Source/**.h",
+		"%{prj.name}/Source/**.cpp"
 
 	}
 
 	includedirs
 	{
 		"%{prj.name}/Bo0m_Engine/Source",
-		"%{prj.name}/Bo0m_Engine/Source/ThirdParts/spdlog/include"
+		"Bo0m-Engine/Bo0m_Engine/Source/ThirdParts"
 
 	}
 
@@ -51,7 +51,7 @@ outputdir = "%{cfg.buildcfg}-%{cfg.system}-%{cfg.architecture}"
 
 		postbuildcommands
 		{
-			("{COPY} %{cfg.buildtarget.repath} ../bin/" ..outputdir .. "/SampleProject")
+			("{COPY} %{cfg.buildtarget.relpath} ../bin/" ..outputdir .. "/SampleProject")
 
 		}
 
@@ -79,8 +79,8 @@ project "SampleProject"
 
 	files
 	{
-		"%{prj.name}/Bo0m_Engine/Source/**.h",
-		"%{prj.name}/Bo0m_Engine/Source/**.cpp"
+		"%{prj.name}/Source/**.h",
+		"%{prj.name}/Source/**.cpp"
 
 	}
 
