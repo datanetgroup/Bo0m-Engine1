@@ -1,3 +1,6 @@
-﻿  Application.cpp
+﻿  bepch.cpp
+  Application.cpp
+  Core.cpp
+  Code wird generiert...
      Bibliothek "..\bin\Debug-windows-x86_64\Bo0m_Engine\Bo0m_Engine.lib" und Objekt "..\bin\Debug-windows-x86_64\Bo0m_Engine\Bo0m_Engine.exp" werden erstellt.
   Bo0m_Engine.vcxproj -> D:\Dev\Bo0m-Engine\bin\Debug-windows-x86_64\Bo0m_Engine\Bo0m_Engine.dll

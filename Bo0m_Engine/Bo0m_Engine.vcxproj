@@ -15,10 +15,15 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="Config\Linux\BaseLinuxEngine.ini" />
+    <ClCompile Include="Source\bepch.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
+    </ClCompile>
     <ClCompile Include="Source\Core\Application.cpp" />
     <ClCompile Include="Source\Core\Core.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Source\bepch.h" />
     <ClInclude Include="Source\Bo0mEngine.h" />
     <ClInclude Include="Source\Core\Application.h" />
     <ClInclude Include="Source\Core\Core.h" />
@@ -30,6 +35,8 @@
     <ClInclude Include="Source\Core\Log.h" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Config\Linux\LinuxEngine.ini" />
+    <None Include="Config\Linux\LinuxGame.ini" />
     <None Include="Config\Windows\BaseWindowsEngine.ini" />
     <None Include="Config\Windows\WindowsEngine.ini" />
     <None Include="Config\Windows\WindowsGame.ini" />
@@ -96,10 +103,11 @@
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <ClCompile>
-      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>bepch.h</PrecompiledHeaderFile>
       <WarningLevel>Level3</WarningLevel>
       <PreprocessorDefinitions>BE_PLATFORM_WINDOWS;BE_BUILD_DLL;BE_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>Bo0m_Engine\Source;Bo0m_Engine\Source\ThirdParts\spdlog\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(SolutionDir)\Bo0m_Engine\Source;Bo0m_Engine\Source\ThirdParts\spdlog\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
       <Optimization>Disabled</Optimization>
       <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
@@ -116,7 +124,8 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <ClCompile>
-      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>bepch.h</PrecompiledHeaderFile>
       <WarningLevel>Level3</WarningLevel>
       <PreprocessorDefinitions>BE_PLATFORM_WINDOWS;BE_BUILD_DLL;BE_RELEASE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <AdditionalIncludeDirectories>Bo0m_Engine\Source;Bo0m_Engine\Source\ThirdParts\spdlog\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
@@ -140,7 +149,8 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Shipping|x64'">
     <ClCompile>
-      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>bepch.h</PrecompiledHeaderFile>
       <WarningLevel>Level3</WarningLevel>
       <PreprocessorDefinitions>BE_PLATFORM_WINDOWS;BE_BUILD_DLL;BE_SHIPPING;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <AdditionalIncludeDirectories>Bo0m_Engine\Source;Bo0m_Engine\Source\ThirdParts\spdlog\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>

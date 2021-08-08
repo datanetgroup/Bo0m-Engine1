@@ -20,6 +20,10 @@ outputdir = "%{cfg.buildcfg}-%{cfg.system}-%{cfg.architecture}"
 	targetdir ("bin/" ..outputdir .."/%{prj.name}")
 	objdir ("bin-int/" ..outputdir .."/%{prj.name}")
 
+	pchheader "bepch.h"
+	pchsource "Bo0m_Engine/Source/bepch.cpp"
+
+
 	files
 	{
 		"%{prj.name}/Engine/Source/**.h",
