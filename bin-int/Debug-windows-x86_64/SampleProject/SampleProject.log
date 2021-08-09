@@ -1,2 +1,2 @@
 ﻿  App.cpp
-D:\Dev\Bo0m-Engine\Bo0m_Engine\Source\ThirdParty\SPDLOG\include\spdlog\spdlog.h(12,10): fatal error C1083: Datei (Include) kann nicht geöffnet werden: "spdlog/common.h": No such file or directory
+D:\Dev\Bo0m-Engine\Bo0m_Engine\Source\ThirdParty\SPDLOG\include\spdlog\fmt\ostr.h(17,12): fatal error C1083: Datei (Include) kann nicht geöffnet werden: "fmt/bundled/ostream.h": No such file or directory

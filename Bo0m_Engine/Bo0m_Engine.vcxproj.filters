@@ -202,9 +202,6 @@
     <ClInclude Include="Source\ThirdParty\GLFW\src\xkb_unicode.h">
       <Filter>ThirdParty\GLFW\src</Filter>
     </ClInclude>
-    <ClInclude Include="Source\ThirdParty\SPDLOG\bench\utils.h">
-      <Filter>ThirdParty\SPDLOG\bench</Filter>
-    </ClInclude>
     <ClInclude Include="Source\ThirdParty\SPDLOG\include\spdlog\async.h">
       <Filter>ThirdParty\SPDLOG\include\spdlog</Filter>
     </ClInclude>
@@ -490,15 +487,6 @@
     <ClInclude Include="Source\ThirdParty\SPDLOG\include\spdlog\version.h">
       <Filter>ThirdParty\SPDLOG\include\spdlog</Filter>
     </ClInclude>
-    <ClInclude Include="Source\ThirdParty\SPDLOG\tests\includes.h">
-      <Filter>ThirdParty\SPDLOG\tests</Filter>
-    </ClInclude>
-    <ClInclude Include="Source\ThirdParty\SPDLOG\tests\test_sink.h">
-      <Filter>ThirdParty\SPDLOG\tests</Filter>
-    </ClInclude>
-    <ClInclude Include="Source\ThirdParty\SPDLOG\tests\utils.h">
-      <Filter>ThirdParty\SPDLOG\tests</Filter>
-    </ClInclude>
     <ClInclude Include="Source\bepch.h" />
   </ItemGroup>
   <ItemGroup>
@@ -510,108 +498,6 @@
     </ClCompile>
     <ClCompile Include="Source\Core\Log.cpp">
       <Filter>Core</Filter>
-    </ClCompile>
-    <ClCompile Include="Source\ThirdParty\SPDLOG\bench\async_bench.cpp">
-      <Filter>ThirdParty\SPDLOG\bench</Filter>
-    </ClCompile>
-    <ClCompile Include="Source\ThirdParty\SPDLOG\bench\bench.cpp">
-      <Filter>ThirdParty\SPDLOG\bench</Filter>
-    </ClCompile>
-    <ClCompile Include="Source\ThirdParty\SPDLOG\bench\formatter-bench.cpp">
-      <Filter>ThirdParty\SPDLOG\bench</Filter>
-    </ClCompile>
-    <ClCompile Include="Source\ThirdParty\SPDLOG\bench\latency.cpp">
-      <Filter>ThirdParty\SPDLOG\bench</Filter>
-    </ClCompile>
-    <ClCompile Include="Source\ThirdParty\SPDLOG\example\example.cpp">
-      <Filter>ThirdParty\SPDLOG\example</Filter>
-    </ClCompile>
-    <ClCompile Include="Source\ThirdParty\SPDLOG\src\async.cpp">
-      <Filter>ThirdParty\SPDLOG\src</Filter>
-    </ClCompile>
-    <ClCompile Include="Source\ThirdParty\SPDLOG\src\cfg.cpp">
-      <Filter>ThirdParty\SPDLOG\src</Filter>
-    </ClCompile>
-    <ClCompile Include="Source\ThirdParty\SPDLOG\src\color_sinks.cpp">
-      <Filter>ThirdParty\SPDLOG\src</Filter>
-    </ClCompile>
-    <ClCompile Include="Source\ThirdParty\SPDLOG\src\file_sinks.cpp">
-      <Filter>ThirdParty\SPDLOG\src</Filter>
-    </ClCompile>
-    <ClCompile Include="Source\ThirdParty\SPDLOG\src\fmt.cpp">
-      <Filter>ThirdParty\SPDLOG\src</Filter>
-    </ClCompile>
-    <ClCompile Include="Source\ThirdParty\SPDLOG\src\spdlog.cpp">
-      <Filter>ThirdParty\SPDLOG\src</Filter>
-    </ClCompile>
-    <ClCompile Include="Source\ThirdParty\SPDLOG\src\stdout_sinks.cpp">
-      <Filter>ThirdParty\SPDLOG\src</Filter>
-    </ClCompile>
-    <ClCompile Include="Source\ThirdParty\SPDLOG\tests\main.cpp">
-      <Filter>ThirdParty\SPDLOG\tests</Filter>
-    </ClCompile>
-    <ClCompile Include="Source\ThirdParty\SPDLOG\tests\test_async.cpp">
-      <Filter>ThirdParty\SPDLOG\tests</Filter>
-    </ClCompile>
-    <ClCompile Include="Source\ThirdParty\SPDLOG\tests\test_backtrace.cpp">
-      <Filter>ThirdParty\SPDLOG\tests</Filter>
-    </ClCompile>
-    <ClCompile Include="Source\ThirdParty\SPDLOG\tests\test_cfg.cpp">
-      <Filter>ThirdParty\SPDLOG\tests</Filter>
-    </ClCompile>
-    <ClCompile Include="Source\ThirdParty\SPDLOG\tests\test_create_dir.cpp">
-      <Filter>ThirdParty\SPDLOG\tests</Filter>
-    </ClCompile>
-    <ClCompile Include="Source\ThirdParty\SPDLOG\tests\test_daily_logger.cpp">
-      <Filter>ThirdParty\SPDLOG\tests</Filter>
-    </ClCompile>
-    <ClCompile Include="Source\ThirdParty\SPDLOG\tests\test_dup_filter.cpp">
-      <Filter>ThirdParty\SPDLOG\tests</Filter>
-    </ClCompile>
-    <ClCompile Include="Source\ThirdParty\SPDLOG\tests\test_errors.cpp">
-      <Filter>ThirdParty\SPDLOG\tests</Filter>
-    </ClCompile>
-    <ClCompile Include="Source\ThirdParty\SPDLOG\tests\test_eventlog.cpp">
-      <Filter>ThirdParty\SPDLOG\tests</Filter>
-    </ClCompile>
-    <ClCompile Include="Source\ThirdParty\SPDLOG\tests\test_file_helper.cpp">
-      <Filter>ThirdParty\SPDLOG\tests</Filter>
-    </ClCompile>
-    <ClCompile Include="Source\ThirdParty\SPDLOG\tests\test_file_logging.cpp">
-      <Filter>ThirdParty\SPDLOG\tests</Filter>
-    </ClCompile>
-    <ClCompile Include="Source\ThirdParty\SPDLOG\tests\test_fmt_helper.cpp">
-      <Filter>ThirdParty\SPDLOG\tests</Filter>
-    </ClCompile>
-    <ClCompile Include="Source\ThirdParty\SPDLOG\tests\test_macros.cpp">
-      <Filter>ThirdParty\SPDLOG\tests</Filter>
-    </ClCompile>
-    <ClCompile Include="Source\ThirdParty\SPDLOG\tests\test_misc.cpp">
-      <Filter>ThirdParty\SPDLOG\tests</Filter>
-    </ClCompile>
-    <ClCompile Include="Source\ThirdParty\SPDLOG\tests\test_mpmc_q.cpp">
-      <Filter>ThirdParty\SPDLOG\tests</Filter>
-    </ClCompile>
-    <ClCompile Include="Source\ThirdParty\SPDLOG\tests\test_pattern_formatter.cpp">
-      <Filter>ThirdParty\SPDLOG\tests</Filter>
-    </ClCompile>
-    <ClCompile Include="Source\ThirdParty\SPDLOG\tests\test_registry.cpp">
-      <Filter>ThirdParty\SPDLOG\tests</Filter>
-    </ClCompile>
-    <ClCompile Include="Source\ThirdParty\SPDLOG\tests\test_stdout_api.cpp">
-      <Filter>ThirdParty\SPDLOG\tests</Filter>
-    </ClCompile>
-    <ClCompile Include="Source\ThirdParty\SPDLOG\tests\test_stopwatch.cpp">
-      <Filter>ThirdParty\SPDLOG\tests</Filter>
-    </ClCompile>
-    <ClCompile Include="Source\ThirdParty\SPDLOG\tests\test_systemd.cpp">
-      <Filter>ThirdParty\SPDLOG\tests</Filter>
-    </ClCompile>
-    <ClCompile Include="Source\ThirdParty\SPDLOG\tests\test_time_point.cpp">
-      <Filter>ThirdParty\SPDLOG\tests</Filter>
-    </ClCompile>
-    <ClCompile Include="Source\ThirdParty\SPDLOG\tests\utils.cpp">
-      <Filter>ThirdParty\SPDLOG\tests</Filter>
     </ClCompile>
     <ClCompile Include="Source\bepch.cpp" />
   </ItemGroup>

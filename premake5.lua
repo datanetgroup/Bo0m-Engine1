@@ -40,7 +40,7 @@ include "Bo0m_Engine/Source/ThirdParty/GLFW"
 	includedirs
 	{
 		"$(SolutionDir)/Bo0m_Engine/Source",
-		"$(SolutionDir)/Bo0m_Engine/Source/ThirdParty/include",
+		"$(SolutionDir)/Bo0m_Engine/Source/ThirdParty/SPDLOG/include/spdlog",
 		"%{IncludeDir.GLFW}"
 
 	}

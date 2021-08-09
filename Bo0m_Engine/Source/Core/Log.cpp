@@ -1,4 +1,3 @@
-#include "bepch.h"
 #include "Log.h"
 #include "../ThirdParty/SPDLOG/include/spdlog/sinks/stdout_color_sinks.h"
 
