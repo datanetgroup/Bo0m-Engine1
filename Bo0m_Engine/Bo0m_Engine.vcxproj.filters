@@ -488,6 +488,8 @@
       <Filter>ThirdParty\SPDLOG\include\spdlog</Filter>
     </ClInclude>
     <ClInclude Include="Source\bepch.h" />
+    <ClInclude Include="Source\Core\Window.h" />
+    <ClInclude Include="Source\Platform\Windows\WindowsWindow.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Source\Core\Application.cpp">
@@ -500,5 +502,6 @@
       <Filter>Core</Filter>
     </ClCompile>
     <ClCompile Include="Source\bepch.cpp" />
+    <ClCompile Include="Source\Platform\Windows\WindowsWindow.cpp" />
   </ItemGroup>
 </Project>

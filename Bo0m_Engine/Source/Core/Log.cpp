@@ -1,6 +1,5 @@
 #include "Log.h"
 #include "../ThirdParty/SPDLOG/include/spdlog/sinks/stdout_color_sinks.h"
-
 //Dieser Include Soll nach Einbindung neu Gesetzt werden so das die Datei gefunden werden kann
 //#include "spdlog/sinks/stdout_color_sink.h"
 
