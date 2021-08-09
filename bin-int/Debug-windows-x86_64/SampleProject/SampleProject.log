@@ -1,6 +1,2 @@
 ﻿  App.cpp
-D:\Dev\Bo0m-Engine\Bo0m_Engine\Source\Core\Log.h(17,56): warning C4251: "BE::Log::s_CoreLogger": class "std::shared_ptr<spdlog::logger>" erfordert eine DLL-Schnittstelle, die von Clients von class "BE::Log" verwendet wird
-D:\Dev\Bo0m-Engine\Bo0m_Engine\Source\ThirdParty\SPDLOG\include\spdlog\details\registry.h(34): message : Siehe Deklaration von "std::shared_ptr<spdlog::logger>"
-D:\Dev\Bo0m-Engine\Bo0m_Engine\Source\Core\Log.h(18,58): warning C4251: "BE::Log::s_ClientLogger": class "std::shared_ptr<spdlog::logger>" erfordert eine DLL-Schnittstelle, die von Clients von class "BE::Log" verwendet wird
-D:\Dev\Bo0m-Engine\Bo0m_Engine\Source\ThirdParty\SPDLOG\include\spdlog\details\registry.h(34): message : Siehe Deklaration von "std::shared_ptr<spdlog::logger>"
-  SampleProject.vcxproj -> D:\Dev\Bo0m-Engine\bin\Debug-windows-x86_64\SampleProject\SampleProject.exe
+D:\Dev\Bo0m-Engine\Bo0m_Engine\Source\ThirdParty\SPDLOG\include\spdlog\spdlog.h(12,10): fatal error C1083: Datei (Include) kann nicht geöffnet werden: "spdlog/common.h": No such file or directory

@@ -1,12 +1,78 @@
-﻿  Application.cpp
-D:\Dev\Bo0m-Engine\Bo0m_Engine\Source\Core\Log.h(17,56): warning C4251: "BE::Log::s_CoreLogger": class "std::shared_ptr<spdlog::logger>" erfordert eine DLL-Schnittstelle, die von Clients von class "BE::Log" verwendet wird
-D:\Dev\Bo0m-Engine\Bo0m_Engine\Source\ThirdParty\SPDLOG\include\spdlog\details\registry.h(34): message : Siehe Deklaration von "std::shared_ptr<spdlog::logger>"
-D:\Dev\Bo0m-Engine\Bo0m_Engine\Source\Core\Log.h(18,58): warning C4251: "BE::Log::s_ClientLogger": class "std::shared_ptr<spdlog::logger>" erfordert eine DLL-Schnittstelle, die von Clients von class "BE::Log" verwendet wird
-D:\Dev\Bo0m-Engine\Bo0m_Engine\Source\ThirdParty\SPDLOG\include\spdlog\details\registry.h(34): message : Siehe Deklaration von "std::shared_ptr<spdlog::logger>"
+﻿  bepch.cpp
+  Application.cpp
+D:\Dev\Bo0m-Engine\Bo0m_Engine\Source\ThirdParty\SPDLOG\include\spdlog\spdlog.h(12,10): fatal error C1083: Datei (Include) kann nicht geöffnet werden: "spdlog/common.h": No such file or directory
+  Core.cpp
   Log.cpp
-D:\Dev\Bo0m-Engine\Bo0m_Engine\Source\Core\Log.h(17,56): warning C4251: "BE::Log::s_CoreLogger": class "std::shared_ptr<spdlog::logger>" erfordert eine DLL-Schnittstelle, die von Clients von class "BE::Log" verwendet wird
-D:\Dev\Bo0m-Engine\Bo0m_Engine\Source\ThirdParty\SPDLOG\include\spdlog\details\registry.h(34): message : Siehe Deklaration von "std::shared_ptr<spdlog::logger>"
-D:\Dev\Bo0m-Engine\Bo0m_Engine\Source\Core\Log.h(18,58): warning C4251: "BE::Log::s_ClientLogger": class "std::shared_ptr<spdlog::logger>" erfordert eine DLL-Schnittstelle, die von Clients von class "BE::Log" verwendet wird
-D:\Dev\Bo0m-Engine\Bo0m_Engine\Source\ThirdParty\SPDLOG\include\spdlog\details\registry.h(34): message : Siehe Deklaration von "std::shared_ptr<spdlog::logger>"
+D:\Dev\Bo0m-Engine\Bo0m_Engine\Source\ThirdParty\SPDLOG\include\spdlog\spdlog.h(12,10): fatal error C1083: Datei (Include) kann nicht geöffnet werden: "spdlog/common.h": No such file or directory
+  async_bench.cpp
+D:\Dev\Bo0m-Engine\Bo0m_Engine\Source\ThirdParty\SPDLOG\bench\async_bench.cpp(185,1): fatal error C1010: Unerwartetes Dateiende während der Suche nach dem vorkompilierten Header. Haben Sie möglicherweise vergessen, im Quellcode "#include "bepch.h"" einzufügen?
+  bench.cpp
+D:\Dev\Bo0m-Engine\Bo0m_Engine\Source\ThirdParty\SPDLOG\bench\bench.cpp(247,1): fatal error C1010: Unerwartetes Dateiende während der Suche nach dem vorkompilierten Header. Haben Sie möglicherweise vergessen, im Quellcode "#include "bepch.h"" einzufügen?
+  formatter-bench.cpp
+D:\Dev\Bo0m-Engine\Bo0m_Engine\Source\ThirdParty\SPDLOG\bench\formatter-bench.cpp(8,10): fatal error C1083: Datei (Include) kann nicht geöffnet werden: "spdlog/spdlog.h": No such file or directory
+  latency.cpp
+D:\Dev\Bo0m-Engine\Bo0m_Engine\Source\ThirdParty\SPDLOG\bench\latency.cpp(11,10): error C2006: "#include": FILENAME oder <FILENAME> erwartet.
+D:\Dev\Bo0m-Engine\Bo0m_Engine\Source\ThirdParty\SPDLOG\bench\latency.cpp(178,1): fatal error C1010: Unerwartetes Dateiende während der Suche nach dem vorkompilierten Header. Haben Sie möglicherweise vergessen, im Quellcode "#include "bepch.h"" einzufügen?
+  example.cpp
+D:\Dev\Bo0m-Engine\Bo0m_Engine\Source\ThirdParty\SPDLOG\example\example.cpp(295,1): fatal error C1010: Unerwartetes Dateiende während der Suche nach dem vorkompilierten Header. Haben Sie möglicherweise vergessen, im Quellcode "#include "bepch.h"" einzufügen?
+  async.cpp
+D:\Dev\Bo0m-Engine\Bo0m_Engine\Source\ThirdParty\SPDLOG\src\async.cpp(14,1): fatal error C1010: Unerwartetes Dateiende während der Suche nach dem vorkompilierten Header. Haben Sie möglicherweise vergessen, im Quellcode "#include "bepch.h"" einzufügen?
+  cfg.cpp
+D:\Dev\Bo0m-Engine\Bo0m_Engine\Source\ThirdParty\SPDLOG\src\cfg.cpp(9,1): fatal error C1010: Unerwartetes Dateiende während der Suche nach dem vorkompilierten Header. Haben Sie möglicherweise vergessen, im Quellcode "#include "bepch.h"" einzufügen?
+  color_sinks.cpp
+D:\Dev\Bo0m-Engine\Bo0m_Engine\Source\ThirdParty\SPDLOG\src\color_sinks.cpp(52,1): fatal error C1010: Unerwartetes Dateiende während der Suche nach dem vorkompilierten Header. Haben Sie möglicherweise vergessen, im Quellcode "#include "bepch.h"" einzufügen?
+  file_sinks.cpp
+D:\Dev\Bo0m-Engine\Bo0m_Engine\Source\ThirdParty\SPDLOG\src\file_sinks.cpp(21,1): fatal error C1010: Unerwartetes Dateiende während der Suche nach dem vorkompilierten Header. Haben Sie möglicherweise vergessen, im Quellcode "#include "bepch.h"" einzufügen?
+  fmt.cpp
+D:\Dev\Bo0m-Engine\Bo0m_Engine\Source\ThirdParty\SPDLOG\src\fmt.cpp(69,1): fatal error C1010: Unerwartetes Dateiende während der Suche nach dem vorkompilierten Header. Haben Sie möglicherweise vergessen, im Quellcode "#include "bepch.h"" einzufügen?
+  spdlog.cpp
+D:\Dev\Bo0m-Engine\Bo0m_Engine\Source\ThirdParty\SPDLOG\src\spdlog.cpp(27,1): fatal error C1010: Unerwartetes Dateiende während der Suche nach dem vorkompilierten Header. Haben Sie möglicherweise vergessen, im Quellcode "#include "bepch.h"" einzufügen?
+  stdout_sinks.cpp
+D:\Dev\Bo0m-Engine\Bo0m_Engine\Source\ThirdParty\SPDLOG\src\stdout_sinks.cpp(30,1): fatal error C1010: Unerwartetes Dateiende während der Suche nach dem vorkompilierten Header. Haben Sie möglicherweise vergessen, im Quellcode "#include "bepch.h"" einzufügen?
+  main.cpp
+D:\Dev\Bo0m-Engine\Bo0m_Engine\Source\ThirdParty\SPDLOG\tests\main.cpp(3,1): fatal error C1010: Unerwartetes Dateiende während der Suche nach dem vorkompilierten Header. Haben Sie möglicherweise vergessen, im Quellcode "#include "bepch.h"" einzufügen?
+  test_async.cpp
+D:\Dev\Bo0m-Engine\Bo0m_Engine\Source\ThirdParty\SPDLOG\tests\test_async.cpp(191,1): fatal error C1010: Unerwartetes Dateiende während der Suche nach dem vorkompilierten Header. Haben Sie möglicherweise vergessen, im Quellcode "#include "bepch.h"" einzufügen?
+  test_backtrace.cpp
+D:\Dev\Bo0m-Engine\Bo0m_Engine\Source\ThirdParty\SPDLOG\tests\test_backtrace.cpp(66,1): fatal error C1010: Unerwartetes Dateiende während der Suche nach dem vorkompilierten Header. Haben Sie möglicherweise vergessen, im Quellcode "#include "bepch.h"" einzufügen?
+  test_cfg.cpp
+D:\Dev\Bo0m-Engine\Bo0m_Engine\Source\ThirdParty\SPDLOG\tests\test_cfg.cpp(184,1): fatal error C1010: Unerwartetes Dateiende während der Suche nach dem vorkompilierten Header. Haben Sie möglicherweise vergessen, im Quellcode "#include "bepch.h"" einzufügen?
+  test_create_dir.cpp
+D:\Dev\Bo0m-Engine\Bo0m_Engine\Source\ThirdParty\SPDLOG\tests\test_create_dir.cpp(76,1): fatal error C1010: Unerwartetes Dateiende während der Suche nach dem vorkompilierten Header. Haben Sie möglicherweise vergessen, im Quellcode "#include "bepch.h"" einzufügen?
   Code wird generiert...
-  Bo0m_Engine.vcxproj -> D:\Dev\Bo0m-Engine\bin\Debug-windows-x86_64\Bo0m_Engine\Bo0m_Engine.dll
+  Kompilieren...
+  test_daily_logger.cpp
+D:\Dev\Bo0m-Engine\Bo0m_Engine\Source\ThirdParty\SPDLOG\tests\test_daily_logger.cpp(169,1): fatal error C1010: Unerwartetes Dateiende während der Suche nach dem vorkompilierten Header. Haben Sie möglicherweise vergessen, im Quellcode "#include "bepch.h"" einzufügen?
+  test_dup_filter.cpp
+D:\Dev\Bo0m-Engine\Bo0m_Engine\Source\ThirdParty\SPDLOG\tests\test_dup_filter.cpp(91,1): fatal error C1010: Unerwartetes Dateiende während der Suche nach dem vorkompilierten Header. Haben Sie möglicherweise vergessen, im Quellcode "#include "bepch.h"" einzufügen?
+  test_errors.cpp
+D:\Dev\Bo0m-Engine\Bo0m_Engine\Source\ThirdParty\SPDLOG\tests\test_errors.cpp(122,1): fatal error C1010: Unerwartetes Dateiende während der Suche nach dem vorkompilierten Header. Haben Sie möglicherweise vergessen, im Quellcode "#include "bepch.h"" einzufügen?
+  test_eventlog.cpp
+D:\Dev\Bo0m-Engine\Bo0m_Engine\Source\ThirdParty\SPDLOG\tests\test_eventlog.cpp(72,1): fatal error C1010: Unerwartetes Dateiende während der Suche nach dem vorkompilierten Header. Haben Sie möglicherweise vergessen, im Quellcode "#include "bepch.h"" einzufügen?
+  test_file_helper.cpp
+D:\Dev\Bo0m-Engine\Bo0m_Engine\Source\ThirdParty\SPDLOG\tests\test_file_helper.cpp(102,1): fatal error C1010: Unerwartetes Dateiende während der Suche nach dem vorkompilierten Header. Haben Sie möglicherweise vergessen, im Quellcode "#include "bepch.h"" einzufügen?
+  test_file_logging.cpp
+D:\Dev\Bo0m-Engine\Bo0m_Engine\Source\ThirdParty\SPDLOG\tests\test_file_logging.cpp(101,1): fatal error C1010: Unerwartetes Dateiende während der Suche nach dem vorkompilierten Header. Haben Sie möglicherweise vergessen, im Quellcode "#include "bepch.h"" einzufügen?
+  test_fmt_helper.cpp
+D:\Dev\Bo0m-Engine\Bo0m_Engine\Source\ThirdParty\SPDLOG\tests\test_fmt_helper.cpp(87,1): fatal error C1010: Unerwartetes Dateiende während der Suche nach dem vorkompilierten Header. Haben Sie möglicherweise vergessen, im Quellcode "#include "bepch.h"" einzufügen?
+  test_macros.cpp
+D:\Dev\Bo0m-Engine\Bo0m_Engine\Source\ThirdParty\SPDLOG\tests\test_macros.cpp(63,1): fatal error C1010: Unerwartetes Dateiende während der Suche nach dem vorkompilierten Header. Haben Sie möglicherweise vergessen, im Quellcode "#include "bepch.h"" einzufügen?
+  test_misc.cpp
+D:\Dev\Bo0m-Engine\Bo0m_Engine\Source\ThirdParty\SPDLOG\tests\test_misc.cpp(272,1): fatal error C1010: Unerwartetes Dateiende während der Suche nach dem vorkompilierten Header. Haben Sie möglicherweise vergessen, im Quellcode "#include "bepch.h"" einzufügen?
+  test_mpmc_q.cpp
+D:\Dev\Bo0m-Engine\Bo0m_Engine\Source\ThirdParty\SPDLOG\tests\test_mpmc_q.cpp(107,1): fatal error C1010: Unerwartetes Dateiende während der Suche nach dem vorkompilierten Header. Haben Sie möglicherweise vergessen, im Quellcode "#include "bepch.h"" einzufügen?
+  test_pattern_formatter.cpp
+D:\Dev\Bo0m-Engine\Bo0m_Engine\Source\ThirdParty\SPDLOG\tests\test_pattern_formatter.cpp(459,1): fatal error C1010: Unerwartetes Dateiende während der Suche nach dem vorkompilierten Header. Haben Sie möglicherweise vergessen, im Quellcode "#include "bepch.h"" einzufügen?
+  test_registry.cpp
+D:\Dev\Bo0m-Engine\Bo0m_Engine\Source\ThirdParty\SPDLOG\tests\test_registry.cpp(117,1): fatal error C1010: Unerwartetes Dateiende während der Suche nach dem vorkompilierten Header. Haben Sie möglicherweise vergessen, im Quellcode "#include "bepch.h"" einzufügen?
+  test_stdout_api.cpp
+D:\Dev\Bo0m-Engine\Bo0m_Engine\Source\ThirdParty\SPDLOG\tests\test_stdout_api.cpp(99,1): fatal error C1010: Unerwartetes Dateiende während der Suche nach dem vorkompilierten Header. Haben Sie möglicherweise vergessen, im Quellcode "#include "bepch.h"" einzufügen?
+  test_stopwatch.cpp
+D:\Dev\Bo0m-Engine\Bo0m_Engine\Source\ThirdParty\SPDLOG\tests\test_stopwatch.cpp(36,1): fatal error C1010: Unerwartetes Dateiende während der Suche nach dem vorkompilierten Header. Haben Sie möglicherweise vergessen, im Quellcode "#include "bepch.h"" einzufügen?
+  test_systemd.cpp
+D:\Dev\Bo0m-Engine\Bo0m_Engine\Source\ThirdParty\SPDLOG\tests\test_systemd.cpp(16,1): fatal error C1010: Unerwartetes Dateiende während der Suche nach dem vorkompilierten Header. Haben Sie möglicherweise vergessen, im Quellcode "#include "bepch.h"" einzufügen?
+  test_time_point.cpp
+D:\Dev\Bo0m-Engine\Bo0m_Engine\Source\ThirdParty\SPDLOG\tests\test_time_point.cpp(37,1): fatal error C1010: Unerwartetes Dateiende während der Suche nach dem vorkompilierten Header. Haben Sie möglicherweise vergessen, im Quellcode "#include "bepch.h"" einzufügen?
+  utils.cpp
+D:\Dev\Bo0m-Engine\Bo0m_Engine\Source\ThirdParty\SPDLOG\tests\utils.cpp(128,1): fatal error C1010: Unerwartetes Dateiende während der Suche nach dem vorkompilierten Header. Haben Sie möglicherweise vergessen, im Quellcode "#include "bepch.h"" einzufügen?
+  Code wird generiert...

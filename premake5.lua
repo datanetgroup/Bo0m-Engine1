@@ -10,6 +10,12 @@ workspace "BE"
 
 outputdir = "%{cfg.buildcfg}-%{cfg.system}-%{cfg.architecture}"
 
+--Include directories relative to root folder (solution directory)
+IncludeDir = {}
+IncludeDir["GLFW"] = "Bo0m_Engine/Source/ThirdParty/GLFW/include"
+
+include "Bo0m_Engine/Source/ThirdParty/GLFW"
+
 
 	project "Bo0m_Engine"
 
@@ -33,9 +39,16 @@ outputdir = "%{cfg.buildcfg}-%{cfg.system}-%{cfg.architecture}"
 
 	includedirs
 	{
-		"%{prj.name}/Bo0m_Engine/Source",
-		"Bo0m-Engine/Bo0m_Engine/Source/ThirdParty"
+		"$(SolutionDir)/Bo0m_Engine/Source",
+		"$(SolutionDir)/Bo0m_Engine/Source/ThirdParty/include",
+		"%{IncludeDir.GLFW}"
 
+	}
+
+	links
+	{
+		"GLFW",
+		"opengl32.lib"
 	}
 
 	filter "system:windows"

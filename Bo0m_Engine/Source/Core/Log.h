@@ -1,6 +1,7 @@
 #pragma once
 #include "Core.h"
-#include "bepch.h"
+#include "../../Source/bepch.h"
+
 #include "../ThirdParty/SPDLOG/include/spdlog/spdlog.h"
 #include "../ThirdParty/SPDLOG/include/spdlog/fmt/ostr.h"
 

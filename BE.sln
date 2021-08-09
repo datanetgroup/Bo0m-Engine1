@@ -3,6 +3,8 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Bo0m_Engine", "Bo0m_Engine\Bo0m_Engine.vcxproj", "{A89213B7-1448-8CAC-9D3C-868309F182B0}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "GLFW", "Bo0m_Engine\Source\ThirdParty\GLFW\GLFW.vcxproj", "{154B857C-0182-860D-AA6E-6C109684020F}"
+EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SampleProject", "SampleProject\SampleProject.vcxproj", "{FEAEC6BC-6A6F-42F3-33AA-8B709F2987CF}"
 EndProject
 Global
@@ -18,6 +20,12 @@ Global
 		{A89213B7-1448-8CAC-9D3C-868309F182B0}.Release|x64.Build.0 = Release|x64
 		{A89213B7-1448-8CAC-9D3C-868309F182B0}.Shipping|x64.ActiveCfg = Shipping|x64
 		{A89213B7-1448-8CAC-9D3C-868309F182B0}.Shipping|x64.Build.0 = Shipping|x64
+		{154B857C-0182-860D-AA6E-6C109684020F}.Debug|x64.ActiveCfg = Debug|x64
+		{154B857C-0182-860D-AA6E-6C109684020F}.Debug|x64.Build.0 = Debug|x64
+		{154B857C-0182-860D-AA6E-6C109684020F}.Release|x64.ActiveCfg = Release|x64
+		{154B857C-0182-860D-AA6E-6C109684020F}.Release|x64.Build.0 = Release|x64
+		{154B857C-0182-860D-AA6E-6C109684020F}.Shipping|x64.ActiveCfg = Shipping|x64
+		{154B857C-0182-860D-AA6E-6C109684020F}.Shipping|x64.Build.0 = Shipping|x64
 		{FEAEC6BC-6A6F-42F3-33AA-8B709F2987CF}.Debug|x64.ActiveCfg = Debug|x64
 		{FEAEC6BC-6A6F-42F3-33AA-8B709F2987CF}.Debug|x64.Build.0 = Debug|x64
 		{FEAEC6BC-6A6F-42F3-33AA-8B709F2987CF}.Release|x64.ActiveCfg = Release|x64

@@ -1,3 +1,3 @@
-[submodule "Bo0m_Engine/Source/ThirdParty/SPDLOG"]
-	path = Bo0m_Engine/Source/ThirdParty/SPDLOG
-	url = https://github.com/gabime/spdlog
+[submodule "Bo0m_Engine/Source/ThirdParty/GLFW"]
+	path = Bo0m_Engine/Source/ThirdParty/GLFW
+	url = https://github.com/datanetgroup/glfw
