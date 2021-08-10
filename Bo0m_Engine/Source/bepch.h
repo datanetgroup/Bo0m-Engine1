@@ -21,6 +21,9 @@
 #include <unordered_map>
 #include <unordered_set>
 
+// Others
+#include "Core/Log.h"
+
 //Windows API
 #ifdef BE_PLATFORM_WINDOWS
 	#include <Windows.h>

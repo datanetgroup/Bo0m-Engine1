@@ -1,5 +1,8 @@
+//PID 185893
+
 #include "../Bo0m_Engine/Source/bepch.h"
 #include "WindowsWindow.h"
+#include "../Bo0m_Engine/Source/Core/Log.h"
 
 namespace BE {
 	static bool s_GLFWInitialized = false;
@@ -16,9 +19,10 @@ namespace BE {
 
 	WindowsWindow::~WindowsWindow()
 	{
+		Shutdown()
 	}
 
-	void WindowsWindow::init(const WindowsProps& props)
+	void WindowsWindow::Init(const WindowsProps& props)
 	{
 		m_Data.Title = props.Title;
 		m_Data.Width = props.Width;
@@ -35,17 +39,33 @@ namespace BE {
 			s_GLFWInitialized = true;
 		}
 
-		m_Window = glfwCreateWindow((init)props.Width, (init)props.Height, m_Data.Title.c_str(), nullptr, nullptr);
+		m_Window = glfwCreateWindow((int)props.Width, (int)props.Height, m_Data.Title.c_str(), nullptr, nullptr);
 		glfwMakeContextCurrent(m_Window);
 		glfwSetWindowUserPointer(m_Window, &m_Data);
 		SetVSync(true);
 	}
 	void WindowsWindow::Shutdown()
 	{
-
+		glfwDestroyWindow(m_Window);
 	}
 	void WindowsWindow::OnUpdate()
 	{
+		glfwPollEvents();
+		glfwSwapBuffers(m_Window);
+	}
 
+	void WindowsWindow::SetVSync(bool enabled)
+	{
+		if (enabled)
+			glfwSwapInterval(1);
+		else
+			glfwSwapInterval(0);
+
+		m_Data.VSync = enabled;
+	}
+
+	bool WindowsWindow::IsVSync() const
+	{
+		return m_Data.VSync;
 	}
 }

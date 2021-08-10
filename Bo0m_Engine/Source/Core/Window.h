@@ -11,12 +11,12 @@ namespace BE {
 	struct WindowProps
 	{
 		std::string Title;
-		unsigned int Width;
-		unsigned int Height;
+		unsigned int width;
+		unsigned int height;
 
 		WindowProps(const std::string& title = "Bo0m Engine"
-			unsigned int width = 1280,
-			unsigned int height = 720)
+				unsigned int width = 1280,
+				unsigned int height = 720)
 			: Title(title), Width(width), Height(height)
 		{
 
