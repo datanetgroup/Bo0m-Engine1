@@ -15,12 +15,12 @@ namespace BE {
 		unsigned int height;
 
 		WindowProps(const std::string& title = "Bo0m Engine"
-				unsigned int width = 1280,
-				unsigned int height = 720)
-			: Title(title), Width(width), Height(height)
+			unsigned int width = 1280,
+			unsigned int height = 720)
+			: Title(title), width(width), height(height)
 		{
 
-		}
+		};
 	};
 
 	// Interface representing a desktop system based Window

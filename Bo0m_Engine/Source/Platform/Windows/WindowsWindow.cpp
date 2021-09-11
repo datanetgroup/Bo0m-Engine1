@@ -4,6 +4,8 @@
 #include "WindowsWindow.h"
 #include "../Bo0m_Engine/Source/Core/Log.h"
 
+#define BE_CORE_INFO
+
 namespace BE {
 	static bool s_GLFWInitialized = false;
 
@@ -14,12 +16,12 @@ namespace BE {
 
 	WindowsWindow::WindowsWindow(const WindowProps& props)
 	{
-		init(props);
+		Init(props);
 	}
 
 	WindowsWindow::~WindowsWindow()
 	{
-		Shutdown()
+		Shutdown();
 	}
 
 	void WindowsWindow::Init(const WindowsProps& props)
@@ -33,7 +35,7 @@ namespace BE {
 		if (!s_GLFWInitialized)
 		{
 			// TODO : glfwTerminate on System Shutdown
-			init success = glfwInit();
+			Init success = glfwInit();
 			BE_CORE_ASSERT(success, "Could not initialize GLFW!");
 
 			s_GLFWInitialized = true;
